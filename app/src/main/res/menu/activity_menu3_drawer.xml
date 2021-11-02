@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admon"
+            android:icon="@drawable/engrane"
+            android:title="Cambiar contraseña" />
+        <item
+            android:id="@+id/nav_contactos"
+            android:icon="@drawable/contacto"
+            android:title="Contactanos" />
+        <item
+            android:id="@+id/nav_acerca"
+            android:icon="@drawable/acerca"
+            android:title="Acerca de" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/salir"
+            android:title="Salir" />
+    </group>
+
+</menu>

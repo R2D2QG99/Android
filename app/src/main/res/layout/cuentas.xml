@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el día"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ventas realizadas"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_ventas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Platillo que más se vende"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_pla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Total"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

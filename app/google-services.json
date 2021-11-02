@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "198146400004",
+    "firebase_url": "https://fonda-fcdb1.firebaseio.com",
+    "project_id": "fonda-fcdb1",
+    "storage_bucket": "fonda-fcdb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198146400004:android:e9641264bd60af00",
+        "android_client_info": {
+          "package_name": "com.example.artur.fonda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198146400004-27au3b5i1948ebo6tfn64ejaj268mddo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.artur.fonda",
+            "certificate_hash": "9c1c84c663992e5e2e74b636700ff8d561c2cd90"
+          }
+        },
+        {
+          "client_id": "198146400004-r9mv2sr4fvoojudhfuq3pb06uds0s52b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqdGHYAJfAqcoa4FrGrnBNDcgBvTKngHA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198146400004-r9mv2sr4fvoojudhfuq3pb06uds0s52b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

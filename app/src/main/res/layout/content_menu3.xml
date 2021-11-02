@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Menu3"
+    tools:showIn="@layout/app_bar_menu3"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/et_usuario"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_user"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Selecciona el menu que quieres desplegar"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bt_emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" Empleado"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/orden"/>
+
+    <Button
+        android:id="@+id/bt_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/historial"
+        android:gravity="center"
+        android:text="Menu"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bt_pedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pedido"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/historial"/>
+</LinearLayout>

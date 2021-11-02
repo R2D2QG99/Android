@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.artur.fonda">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Fonda"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Pass_admon"></activity>
+        <activity android:name=".CambiarpassAdmon" />
+        <activity android:name=".Pedido" />
+        <activity android:name=".Comida" />
+        <activity android:name=".Acerca" />
+        <activity android:name=".Contacto" />
+        <activity
+            android:name=".PassC"
+            android:label="Cambiar Contraseña" />
+        <activity
+            android:name=".Ordenar"
+            android:label="Ordenar" />
+        <activity
+            android:name=".MenuAdministrar"
+            android:label="Administrar" />
+        <activity
+            android:name=".CambiarPassC"
+            android:label="Cambiar Contraseña" />
+        <activity
+            android:name=".Menu3"
+            android:label="@string/title_activity_menu3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menu1"
+            android:label="@string/title_activity_menu1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AgregarAdmon"
+            android:label="Agregar Administrador"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Agregar">
+            <intent-filter>
+                <action android:name="com.example.artur.fonda.Agregar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".Menu2">
+            <intent-filter>
+                <action android:name="com.example.artur.fonda.Menu2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Inventario">
+            <intent-filter>
+                <action android:name="com.example.artur.fonda.Inventario" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cuentas">
+            <intent-filter>
+                <action android:name="com.example.artur.fonda.Cuentas" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Historial">
+            <intent-filter>
+                <action android:name="com.example.artur.fonda.Historial" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
